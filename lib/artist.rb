@@ -10,9 +10,12 @@ class Artist
   end 
   
   def self.all 
-    Artist.all 
+    @@all 
   end 
   
+  def add_song
+    
+  end 
   
   
   
